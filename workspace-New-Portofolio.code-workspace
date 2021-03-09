@@ -8,7 +8,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "New-Portofolio",
+		"liveServer.settings.multiRootWorkspaceName": "portofolio",
 		"files.associations": {
 			"iostream": "cpp"
 		}

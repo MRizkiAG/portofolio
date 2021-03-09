@@ -22,6 +22,27 @@ $(document).ready(function() {
   AOS.init();
 
 
+  //JS Skill
+  let skillImageName = ["css", "js", "bs4", "php", "sass", "jquery"];
+  let skillText = ["CSS", "Javascript", "Bootstrap", "PHP", "SASS", "JQuery"];
+  //Mereverse urutan data array
+  skillImageName.reverse();
+  skillText.reverse();
+  function skill(image, text) {
+    $(".main-skill").after("<div data-aos=\"zoom-in\" data-aos-duration=\"1000\" class=\"skill d-flex justify-content-center\"><div class=\"wrap-img d-flex justify-content-center imghvr-blur\"><img src=\"assets/img/" + image + ".png\" alt=\"\"><p class=\"d-flex align-self-center text-center\">"+ text +"</p></div></div>");
+  }
+  for (i=0;i<skillImageName.length;i++){
+    skill(skillImageName[i], skillText[i]);
+  }
+
+
+  //JS Certification
+  TODO
+  function certification(){
+    $(".main-certification").after("<div class=\"wrap-certificate\"><a href=\"assets/img/certification/Sertifikat DTS - Online Academy - HTML, CSS, Javascript MRizkiAG-1.jpg\" data-lightbox=\"roadtrip\" data-title=\"Digital Talent Scholarship Certificate - Online Academy - HTML, CSS, Javascript - 1\" class=\"d-flex justify-content-center\"> <div class=\"img-certification imghvr-zoom-out-down d-flex justify-content-center\"><img src=\"assets/img/certification/Sertifikat DTS - Online Academy - HTML, CSS, Javascript MRizkiAG-1.jpg\" alt=\"Sertifikat DTS - Online Academy - HTML, CSS, Javascript\"><p class=\"d-flex align-self-center text-center\">Digital Talent Scholarship Certificate <br> Online Academy<br>HTML, CSS, Javascript</p></div></a><a href=\"assets/img/certification/Sertifikat DTS - Online Academy - HTML, CSS, Javascript MRizkiAG-2.jpg\" data-lightbox=\"roadtrip\" data-title=\"Digital Talent Scholarship Certificate - Online Academy - HTML, CSS, Javascript - 2\" class=\"hide\"></a></div>");
+  }
+  
+
 
   //Hide a LightBox
   $("a.hide").hide();
