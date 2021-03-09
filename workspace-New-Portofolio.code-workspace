@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "vertical-timeline-master\\vertical-timeline-master"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "New-Portofolio",
+		"files.associations": {
+			"iostream": "cpp"
+		}
+	}
+}

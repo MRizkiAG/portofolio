@@ -1,0 +1,66 @@
+@import "function.scss";
+
+/* TABLET / Medium */
+@media (max-width: 768px) {
+    body,
+    html {
+        .container-fluid {
+            .container-profil {
+                h1 {
+                    font-size: $font-size-h1-md;
+                }
+                h3 {
+                    font-size: $font-size-h3-md;
+                }
+                h5 {
+                    font-size: $font-size-h5-md;
+                }
+                .wrap-img {
+                    margin-top: 2rem;
+                    .img-fluid {
+                        max-width: 70%;
+                    }
+                }
+            }
+        }
+    }
+}
+/* PHONE / Small */
+@media (max-width: 576px) {
+    body,
+    html {
+        .container-fluid {
+            .container-profil {
+                h1 {
+                    font-size: $font-size-h1-md;
+                }
+                h3 {
+                    font-size: $font-size-h3-md;
+                }
+                h5 {
+                    font-size: $font-size-h5-md;
+                }
+                .wrap-img {
+                    margin-top: 1rem;
+                    .img-fluid {
+                        max-width: 50%;
+                    }
+                }
+            }
+            .container-certification {
+                .experience {
+                    .wrap-certificate {
+                        a {
+                            .img-certification {
+                                p {
+                                    font-size: $font-size-h3-sm;
+                                    padding: 1.5vw;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
