@@ -37,7 +37,7 @@ $(document).ready(function() {
 
 
   //JS Certification
-  TODO
+  //TODO
   function certification(){
     $(".main-certification").after("<div class=\"wrap-certificate\"><a href=\"assets/img/certification/Sertifikat DTS - Online Academy - HTML, CSS, Javascript MRizkiAG-1.jpg\" data-lightbox=\"roadtrip\" data-title=\"Digital Talent Scholarship Certificate - Online Academy - HTML, CSS, Javascript - 1\" class=\"d-flex justify-content-center\"> <div class=\"img-certification imghvr-zoom-out-down d-flex justify-content-center\"><img src=\"assets/img/certification/Sertifikat DTS - Online Academy - HTML, CSS, Javascript MRizkiAG-1.jpg\" alt=\"Sertifikat DTS - Online Academy - HTML, CSS, Javascript\"><p class=\"d-flex align-self-center text-center\">Digital Talent Scholarship Certificate <br> Online Academy<br>HTML, CSS, Javascript</p></div></a><a href=\"assets/img/certification/Sertifikat DTS - Online Academy - HTML, CSS, Javascript MRizkiAG-2.jpg\" data-lightbox=\"roadtrip\" data-title=\"Digital Talent Scholarship Certificate - Online Academy - HTML, CSS, Javascript - 2\" class=\"hide\"></a></div>");
   }
